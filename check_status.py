@@ -4,7 +4,7 @@ import sys
 def check_heli_booking():
     url = 'https://www.heliyatra.irctc.co.in/'
     target_text = 'Booking is currently closed'
-    expected_count = 2
+    expected_count = 4
     
     try:
         headers = {
