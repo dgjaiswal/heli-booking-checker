@@ -4,7 +4,7 @@ import sys
 def check_heli_booking():
     url = 'https://www.heliyatra.irctc.co.in/'
     # The text we expect to see when it is CLOSED
-    closed_text = 'Booking is currently closed'
+    closed_text = 'Booking is currently closed. Test failure text.'
     
     try:
         # Adding a User-Agent header to look like a real browser
