@@ -3,7 +3,7 @@ import sys
 
 def check_heli_booking():
     url = 'https://www.heliyatra.irctc.co.in/'
-    target_text = 'Booking is currently closed'
+    target_text = 'Booking is currently closed. You will be notified as soon as it reopens'
     expected_count = 4
     
     # ADVANCED HEADERS: Makes the script look like a real Chrome browser
